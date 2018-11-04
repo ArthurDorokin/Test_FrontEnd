@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <title>Test</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<main>
+    <header class="head-down">
+        <div class="wrap_header">
+            <div class="block_logo">
+                <img src="img/webservices_logo.svg" alt="">
+            </div>
+            <div class="menu_list">
+                <ul>
+                    <li><a href="#home">Home <span></span></a></li>
+                    <li><a href="#services">Services<span></span></a></li>
+                    <li><a href="#about_us">About Us <span></span></a></li>
+                    <li><a href="#contact_us">Contact Us <span></span></a></li>
+                </ul>
+            </div>
+            <div class="menu_list_mob">
+                <div class="menu_open">
+                    <img class="btn_menu" src="img/menu.svg" alt="">
+                </div>
+                <div class="menu_open_mob">
+                    <div class="menu_open_close">
+                        <img class="btn_close" src="img/cancel.svg" alt="">
+                    </div>
+                    <ul>
+                        <li><a href="#home">Home <span></span></a></li>
+                        <li><a href="#services">Services<span></span></a></li>
+                        <li><a href="#about_us">About Us <span></span></a></li>
+                        <li><a href="#contact_us">Contact Us <span></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="container bg_banner">
+            <div class="wrap_description_ban">
+                <h1>Solutions for your business</h1>
+                <p>Accept credit cards on your web store today! Customized e-commerce<br>
+                    solutions. All the tools you’ll need to grow your business.
+                </p>
+                <span class="mouse_scroll">
+                        <span class="wheel">
+                            <img src="img/wheel.png" alt="">
+                        </span>
+                            <img src="img/mouse_scroll.png" alt="">
+                    </span>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container customer">
+            <h2>
+                <span>Customer services</span>
+            </h2>
+            <p>WebServices ltd. is everything even the most demanding customer looks for in a payment service
+                provider. Thanks to our expertise and years of experience in the field, you will start accepting
+                online payments within several business days.
+            </p>
+            <div class="wrap_customer">
+                <div class="customer_item">
+                    <div class="customer_icon">
+                        <img src="img/fast_payment.svg" alt="">
+                    </div>
+                    <div class="name_icon">
+                        <p>Fast<br>Payment</p>
+                    </div>
+                </div>
+                <div class="customer_item">
+                    <div class="customer_icon">
+                        <img src="img/data_authentication.svg" alt="">
+                    </div>
+                    <div class="name_icon">
+                        <p>Data authentication <br>and processing</p>
+                    </div>
+                </div>
+                <div class="customer_item">
+                    <div class="customer_icon">
+                        <img src="img/secure_infrastructure.svg" alt="">
+                    </div>
+                    <div class="name_icon">
+                        <p>Secure IT <br>Infrastructure</p>
+                    </div>
+                </div>
+                <div class="customer_item">
+                    <div class="customer_icon">
+                        <img src="img/technical_support.svg" alt="">
+                    </div>
+                    <div class="name_icon">
+                        <p>Technical <br>Support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about_us">
+        <div class="container about_us">
+            <div class="wrap_about_us">
+                <h2>
+                    <span>About US</span>
+                </h2>
+                <p>WebServices ltd. was among the first companies offering e-commerce and professional payment
+                    processing
+                    services, modern fraud and chargeback prevention instruments and 24/7 customer support.
+                </p>
+                <p>It did not take long before WebServices ltd. took up a leading position on the market thanks to its
+                    constant development and a desire to overcome a growing competition with the aid of advanced
+                    software
+                    and customizable services.
+                </p>
+                <p>Today, every business collaborating with WebServices ltd. can see a significant growth in their
+                    revenue.
+                    The company works with businesses from all over the world aiming to meet and even exceed
+                    expectations
+                    of the customers, both existing and new ones.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contact_us">
+        <div class="container contact_us">
+            <div class="wrap_contact_us">
+                <h2>
+                    <span>contact us</span>
+                </h2>
+                <p>Unit F, 11/F, CNT Tower,<br>
+                    338 Hennessy Road, Wan Chai, Hong Kong
+                </p>
+
+                <div class="wrap_blockMapForm">
+                    <div class="block_map">
+                        <div id="map"></div>
+                    </div>
+                    <div class="block_form">
+                        <form id="form_send" action="">
+                            <div>
+                                <label id="label_name" for="name" class=""></label>
+                                <input type="text" id="name" class="input_er" placeholder="Name">
+                            </div>
+                            <div>
+                                <label id="label_email" for="email" class=""></label>
+                                <input type="text" id="email" class="input_er" placeholder="Email">
+                            </div>
+                            <div>
+                                <label id="label_message" for="message" class=""></label>
+                                <textarea type="text" id="message" class="input_er" placeholder="Message"></textarea>
+                            </div>
+                            <button id="btn_send_form" type="button" onclick="myForm(form)">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_menu">
+            <ul>
+                <li><a href="#!">Home</a></li>
+                <li><a href="#!">Services</a></li>
+                <li><a href="#!">About Us</a></li>
+                <li><a href="#!">Contact Us</a></li>
+                <li><a href="#!">Privacy Policy</a></li>
+                <li><a href="#!">Terms&Conditions</a></li>
+            </ul>
+            <p>All rights reserved &#169; 2018</p>
+        </div>
+    </footer>
+</main>
+
+<script type="text/javascript" src="js/libs.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+<script>
+    function myForm(form) {
+
+        var name = document.getElementById('name');
+        var label_name = document.getElementById('label_name');
+
+        var email = document.getElementById('email');
+        var label_email = document.getElementById('label_email');
+
+        var message = document.getElementById('message');
+        var label_message = document.getElementById('label_message');
+
+        var filter_name = /^[a-zA-Zа-яА-Я-іІ-їЇ-єЄ'][a-zA-Zа-яА-Я-іІ-їЇ-єЄ' ]+[a-zA-Zа-яА-Я-іІ-їЇ-єЄ']?$/u;
+        var filter_email = /\S+@\S+\.\S+/;
+
+        if (!filter_name.test(name.value)) {
+
+            label_name.classList.add("error");
+            setTimeout(function () {
+                label_name.classList.remove("error");
+            }, 2000);
+
+        } else if (!filter_email.test(email.value)) {
+
+            label_email.classList.add("error");
+            setTimeout(function () {
+                label_email.classList.remove("error");
+            }, 2000);
+
+        } else if (!filter_name.test(message.value)) {
+
+            label_message.classList.add("error");
+            setTimeout(function () {
+                label_message.classList.remove("error");
+            }, 2000);
+
+        } else {
+            alert('Форма отправлена');
+            document.getElementById('form_send').reset();
+        }
+
+    }
+
+</script>
+<script>
+    var map;
+
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 22.312789, lng: 114.173934},
+            zoom: 9
+        });
+        var styles = [
+            {
+                "featureType": "administrative",
+                "elementType": "labels.text.fill",
+                "stylers": [
+                    {
+                        "color": "#444444"
+                    }
+                ]
+            },
+            {
+                "featureType": "landscape",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#f2f2f2"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "road",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "saturation": -100
+                    },
+                    {
+                        "lightness": 45
+                    }
+                ]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "simplified"
+                    }
+                ]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "labels.icon",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "transit",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "visibility": "off"
+                    }
+                ]
+            },
+            {
+                "featureType": "water",
+                "elementType": "all",
+                "stylers": [
+                    {
+                        "color": "#dbdbdb"
+                    },
+                    {
+                        "visibility": "on"
+                    }
+                ]
+            }
+        ]
+        map.setOptions({styles: styles});
+    }
+
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKFztHzVA7_L75JrTwyrzhk2asYAWUL7I&libraries=places&callback=initMap"
+        async defer></script>
+
+
+</body>
+</html>
